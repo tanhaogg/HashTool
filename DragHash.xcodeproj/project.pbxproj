@@ -19,6 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04120F15152AD97900300C1D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = /Users/mac/Desktop/project/HashTool/DragHash/en.lproj/MainMenu.xib; sourceTree = "<absolute>"; };
+		04120F16152AD97900300C1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = /Users/mac/Desktop/project/HashTool/DragHash/en.lproj/Credits.rtf; sourceTree = "<absolute>"; };
+		04120F17152AD97900300C1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = /Users/mac/Desktop/project/HashTool/DragHash/en.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
+		04120F19152AD98C00300C1D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "/Users/mac/Desktop/project/HashTool/DragHash/zh-Hans.lproj/MainMenu.xib"; sourceTree = "<absolute>"; };
+		04120F1A152AD98C00300C1D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = "zh-Hans"; path = "/Users/mac/Desktop/project/HashTool/DragHash/zh-Hans.lproj/Credits.rtf"; sourceTree = "<absolute>"; };
+		04120F1B152AD98C00300C1D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "/Users/mac/Desktop/project/HashTool/DragHash/zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<absolute>"; };
 		046116E51520BCBC00A6DA3E /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		04B402DB15204FC600CE44C2 /* DragHash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragHash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B402DF15204FC600CE44C2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -32,9 +38,6 @@
 		04B402F215204FC600CE44C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		04B402FC15204FF500CE44C2 /* THDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THDragView.h; sourceTree = "<group>"; };
 		04B402FD15204FF500CE44C2 /* THDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THDragView.m; sourceTree = "<group>"; };
-		04B402FF1520566100CE44C2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "/Users/mac/Desktop/DragHash/DragHash/zh-Hans.lproj/MainMenu.xib"; sourceTree = "<absolute>"; };
-		04B403001520566100CE44C2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "/Users/mac/Desktop/DragHash/DragHash/zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<absolute>"; };
-		04B403011520566100CE44C2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = "zh-Hans"; path = "/Users/mac/Desktop/DragHash/DragHash/zh-Hans.lproj/Credits.rtf"; sourceTree = "<absolute>"; };
 		04B403061520676800CE44C2 /* THWebUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THWebUtility.h; sourceTree = "<group>"; };
 		04B403071520676800CE44C2 /* THWebUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THWebUtility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +196,8 @@
 		04B402E815204FC600CE44C2 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				04B403001520566100CE44C2 /* zh-Hans */,
+				04120F17152AD97900300C1D /* en */,
+				04120F1B152AD98C00300C1D /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -201,7 +205,8 @@
 		04B402EE15204FC600CE44C2 /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				04B403011520566100CE44C2 /* zh-Hans */,
+				04120F16152AD97900300C1D /* en */,
+				04120F1A152AD98C00300C1D /* zh-Hans */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
@@ -209,7 +214,8 @@
 		04B402F415204FC600CE44C2 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				04B402FF1520566100CE44C2 /* zh-Hans */,
+				04120F15152AD97900300C1D /* en */,
+				04120F19152AD98C00300C1D /* zh-Hans */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";

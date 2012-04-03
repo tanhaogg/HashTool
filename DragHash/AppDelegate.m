@@ -57,11 +57,15 @@
         case 3: kind = THHashKindSha512;break;
         default:kind = THHashKindMd5;break;
     }
-    NSString *hash = [THWebUtility hashFile:filePath with:kind];
-    if (hash)
-    {
-        [hashField setStringValue:hash];
-    }
+    
+    [hashField setStringValue:@"请等待..."];
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        NSString *hash = [THWebUtility hashFile:filePath with:kind];
+        if (hash)
+        {
+            [hashField setStringValue:hash];
+        }
+    });
 }
 
 - (IBAction)copyClick:(id)sender
